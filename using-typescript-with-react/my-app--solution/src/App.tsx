@@ -1,6 +1,26 @@
+import './App.css';
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+
+const name = "YOUR_NAME_HERE"; // Feel free to add your own name!
+
+interface HelloWorldProps {
+  name: string;
+  children: JSX.Element;
+}
+
+const HelloWorld: React.FunctionComponent<HelloWorldProps> = (props) => {
+  return (
+    <div>
+      <p>Hello world to {props.name}!</p>
+      {props.children}
+    </div>
+  );
+};
+
+const WarningText: React.FunctionComponent<{}> = () => {
+  return <p>Warning: TypeScript has been found to be addictive!</p>;
+};
 
 function App() {
   return (
@@ -18,6 +38,9 @@ function App() {
         >
           Learn React
         </a>
+        <HelloWorld name={name}>
+          <WarningText />
+        </HelloWorld>
       </header>
     </div>
   );
