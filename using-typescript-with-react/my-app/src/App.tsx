@@ -1,6 +1,26 @@
+import './App.css';
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+
+/* Uncomment this code for step 3
+const name = "YOUR_NAME_HERE"; // Feel free to add your own name!
+
+// We need to write an interface with the shape of the props for <HelloWorld>
+// And call it HelloWorldProps.
+// https://www.typescriptlang.org/docs/handbook/interfaces.html
+const HelloWorld: React.FunctionComponent<HelloWorldProps> = (props) => {
+  return (
+    <div>
+      <p>Hello world to {props.name}!</p>
+      {props.children}
+    </div>
+  );
+};
+
+const WarningText: React.FunctionComponent<{}> = () => {
+  return <p>Warning: TypeScript has been found to be addictive!</p>;
+};
+*/
 
 function App() {
   return (
@@ -18,6 +38,11 @@ function App() {
         >
           Learn React
         </a>
+        {/* Uncomment this and remove the curly braces for step 3.
+        <HelloWorld name={name}>
+          <WarningText />
+        </HelloWorld>
+        */}
       </header>
     </div>
   );

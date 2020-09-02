@@ -4,11 +4,13 @@ import logo from './logo.svg';
 
 const name = "YOUR_NAME_HERE"; // Feel free to add your own name!
 
+// We need to write an interface with the shape of the props for <HelloWorld>
+// And call it HelloWorldProps.
+// https://www.typescriptlang.org/docs/handbook/interfaces.html
+// We can skip the 'children' prop because TypeScript knows React components can have children.
 interface HelloWorldProps {
   name: string;
-  children: JSX.Element;
 }
-
 const HelloWorld: React.FunctionComponent<HelloWorldProps> = (props) => {
   return (
     <div>
