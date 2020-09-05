@@ -13,7 +13,7 @@ reference.
 Open `my-app/tsconfig.json` and add the following configurations under
 `"compilerOptions"`:
 
-```
+```json
 "alwaysStrict": true,
 "noUnusedLocals": true,
 "noUnusedParameters": true,
