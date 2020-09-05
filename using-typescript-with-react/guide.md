@@ -21,6 +21,6 @@ Open `my-app/tsconfig.json` and add the following configurations under
 ```
 
 3. Uncomment the components in `my-app/src/App.tsx` at the top of the page, and uncomment the line below which renders the component inside MyApp.
-   Fill in the missing types for the `<HelloWorld>` props.:w
+   Fill in the missing types for the `<HelloWorld>` props.
 
 Congratulations! You've got a fully typed React component!

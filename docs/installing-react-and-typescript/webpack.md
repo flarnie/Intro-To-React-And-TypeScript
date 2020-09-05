@@ -88,7 +88,8 @@ Save this as your `tsconfig.json`.
 }
 ```
 
-4. Fill out `index.ts` and `App.tsx`:
+4. Fill out `App.tx` and `index.ts`:
+
 Save this as `src/App.tsx`.
 ```
 import * as React from "react";
