@@ -25,7 +25,7 @@ touch src/index.html && touch src/index.tsx && touch src/App.tsx
 </html>
 ```
 
-2. Set up your TS config and Webpack config:
+3. Set up your TS config and Webpack config:
 Save this as `webpack.config.js`.
 ```
 const path = require('path');
@@ -88,7 +88,7 @@ Save this as your `tsconfig.json`.
 }
 ```
 
-3. Fill out `index.ts` and `App.tsx`:
+4. Fill out `index.ts` and `App.tsx`:
 Save this as `src/App.tsx`.
 ```
 import * as React from "react";
@@ -114,7 +114,7 @@ ReactDOM.render(
 );
 ```
 
-4. Add the following scripts to your `package.json`:
+6. Add the following scripts to your `package.json`:
 ```
 "scripts": {
 "start": "webpack-dev-server --open",
@@ -122,7 +122,7 @@ ReactDOM.render(
 },
 ```
 
-5. Run `yarn build && yarn start`.
+Run `yarn build && yarn start`.
 
 That's it! Enjoy your new app!
 
