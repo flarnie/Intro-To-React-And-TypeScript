@@ -1,13 +1,13 @@
 # Setting up React and TypeScript with Next.js
 
 1. Create your Next.js app with this command:
-```
+```sh
 npx create-next-app my-test-app
 cd my-test-app
 ```
 
 2. Run these commands to add TypeScript:
-```
+```sh
 npm install --save-dev typescript @types/react @types/node
 mv pages/index.{js,tsx}
 npm run dev

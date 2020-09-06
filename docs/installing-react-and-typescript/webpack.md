@@ -1,7 +1,7 @@
 # Setting up React and TypeScript with Webpack
 
 1. Set up webpack and your project by running these commands:
-```
+```sh
 mkdir webpack-typescript-react
 cd webpack-typescript-react
 npm init -y
@@ -12,7 +12,7 @@ touch src/index.html && touch src/index.tsx && touch src/App.tsx
 ```
 
 2. Save this as your `src/index.html`
-```
+```html
 <!doctype html>
 <html>
   <head>
@@ -27,7 +27,7 @@ touch src/index.html && touch src/index.tsx && touch src/App.tsx
 
 3. Set up your TS config and Webpack config:
 Save this as `webpack.config.js`.
-```
+```js
 const path = require('path');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
@@ -72,7 +72,7 @@ module.exports = {
 ```
 
 Save this as your `tsconfig.json`.
-```
+```json
 {
   "compilerOptions": {
     "outDir": "./dist/",
@@ -91,7 +91,7 @@ Save this as your `tsconfig.json`.
 4. Fill out `App.tx` and `index.ts`:
 
 Save this as `src/App.tsx`.
-```
+```js
 import * as React from "react";
 export interface HelloWorldProps {
   userName: string;
@@ -105,7 +105,7 @@ export const App = (props: HelloWorldProps) => (
 ```
 
 Save this as `src/index.tsx`.
-```
+```js
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { App } from "./App";
@@ -116,7 +116,7 @@ ReactDOM.render(
 ```
 
 6. Add the following scripts to your `package.json`:
-```
+```json
 "scripts": {
 "start": "webpack-dev-server --open",
 "build": "webpack"
