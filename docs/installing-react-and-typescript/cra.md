@@ -1,12 +1,12 @@
 # Setting up React and TypeScript with Create React App
 
 1. Run this command:
-```
+```sh
 npx create-react-app my-app --template typescript
 ```
 
 2. Run this command:
-```
+```sh
 cd my-app && yarn start
 ```
 
