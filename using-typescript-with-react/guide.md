@@ -1,6 +1,6 @@
 # Using TypeScript with React
 
-1. Open the `my-app` project. Run `yarn install --frozen-lockfile` or `npm ci`.
+1. Open the `my-app` project. Run `yarn install` or `npm install`.
 
 Run `yarn start` or `npm run start` to verify things are working as expected.
 
