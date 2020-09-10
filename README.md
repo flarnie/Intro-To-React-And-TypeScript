@@ -7,4 +7,3 @@ Index
   * [Setting up React and TypeScript with Create React App](./docs/installing-react-and-typescript/cra.md)
   * [Setting up React and TypeScript with Next.js](./docs/installing-react-and-typescript/nextJS.md)
 * [Using TypeScript with React](./using-typescript-with-react/guide.md)
-* (TBD) Stopping type leaks
